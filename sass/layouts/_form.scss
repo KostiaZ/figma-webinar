@@ -1,0 +1,78 @@
+.form {
+  width: 100%;
+}
+
+.form__field {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.form__input {
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+  border-radius: 42px;
+}
+
+::placeholder {
+  color: $placeholder;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+:-ms-input-placeholder {
+  color: $placeholder;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+::-ms-input-placeholder {
+  color: $placeholder;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  background-color: $btncolor;
+  border: 0px;
+  border-radius: 42px;
+
+  color: $bgcolor;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  text-transform: uppercase;
+}
+
+.form__terms {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.23;
+}
+
+.checkbox {
+  border: 1px solid $chckbox;
+  border-radius: 4px;
+}
